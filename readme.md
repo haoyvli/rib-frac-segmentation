@@ -4,7 +4,7 @@
 * FracNet/
     * [`dataset/`](./dataset): PyTorch dataset and transforms.
     * [`models/`](./models): PyTorch 3D-UNet model and losses.
-    * [`prediction_directory/`](./prediction_directory): where the segmentation results of  fractured ribs are stored.
+    * [`results/`](./results): where the segmentation results of validation set of fractured ribs are stored.
     * [`utils/`](./utils): Utility functions.
     * [`main.py`](main.py): Training script.
     * [`predict.py`](predict.py): post-processing and generating predictions.
@@ -40,5 +40,5 @@ python -m predict --image_dir <image_directory> --pred_dir <predition_directory>
 
 ### Note
 
-Due to the copyright of the raw dataset, we do not post it on Github, nor the segmentation results of it.
+Due to the requirements of this course project, we have to post the validation results of the raw dataset, which is a copyrighted work, on Github. The dataset and the segmentation results of the dataset are for teaching and research purposes only. And we really appreciate the providing of the raw dataset although we don't know who the author is.
 
